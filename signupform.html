@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIGN UP PAGE</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <h1 style="font-size: 35px;font-weight: bold;text-align: center;color:#A0522D;">SIGN UP</h1>
+    <form action="submit_registration.php" method="post" class="f2">
+        
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="phoneno">Phone number:</label>
+        <input type="phoneno" id="phoneno" name="phoneno" required><br><br>
+
+        <label for="address">Address:</label>
+        <input type="text" id="address" name="address" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="contact">Contact Number:</label>
+        <input type="tel" id="contact" name="contact" required><br><br>
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required><br><br>
+
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label><br><br>
+
+        <input type="submit" value="Submit" 
+        style=" 
+        padding: 15px 32px;
+        cursor: pointer;
+        border-radius: 8px;
+        color: rgb(65, 26, 26);
+        text-align: center;
+        text-decoration: none;
+        font-size:20px;
+        cursor: pointer;
+        border-color:#A0522D;
+        font-style: italic ;">
+        <input type="reset" value="Reset"
+         style=" 
+        padding: 15px 32px;
+        cursor: pointer;
+        border-radius: 8px;
+        color: rgb(65, 26, 26);
+        text-align: center;
+        text-decoration: none;
+        font-size:20px;
+        cursor: pointer;
+        border-color:#A0522D;
+        font-style: italic ;">
+    </form>
+
+</body>
+</html>
